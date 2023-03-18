@@ -33,28 +33,32 @@
         <h2 class="header">You know you want to.</h2>
       </div>
       <form action="" method="post">
-        <h2>Let's do this!</h2>
-        <div class="wrapper">
-          <div class="form-row">
-            <label for="fname">FIRST NAME</label>
-            <input type="text" name="Lname" id="lname" />
-            <label for="fname">LAST NAME</label>
-            <input type="text" name="Lname" id="lname" />
+        <div class="form-background">
+          <h2>Let's do this!</h2>
+          <div class="wrapper">
+            <div class="col-one">
+              <label for="fname">FIRST NAME</label>
+              <input type="text" name="Lname" id="lname" />
+              <label for="email">EMAIL</label>
+              <input type="email" name="Email" id="email" />
+              <label for="password">PASSWORD</label>
+              <input type="password" name="Password" id="password" />
+            </div>
+            <div class="col-two">
+              <label for="fname">LAST NAME</label>
+              <input type="text" name="Lname" id="lname" />
+              <label for="phone-number">PHONE NUMBER</label>
+              <input type="tel" name="Phone_Number" id="phone-number" />
+              <label for="re-password">CONFIRM PASSWORD</label>
+              <input type="password" name="Re-Password" id="re-password" />
+            </div>
           </div>
-          <div class="form-row">
-            <label for="email">EMAIL</label>
-            <input type="email" name="Email" id="email" />
-            <label for="phone-number">PHONE NUMBER</label>
-            <input type="tel" name="Phone_Number" id="phone-number" />
-          </div>
-          <label for="password">PASSWORD</label>
-          <input type="password" name="Password" id="password" />
-          <label for="re-password">CONFIRM PASSWORD</label>
-          <input type="password" name="Re-Password" id="re-password" />
         </div>
         <div class="button-container">
           <button type="submit">Create Account</button>
-          <p>Already have an account? <a href="/">Log in</a></p>
+          <p>
+            Already have an account? <a href="/" class="btn-link">Log in</a>
+          </p>
         </div>
       </form>
     </div>
