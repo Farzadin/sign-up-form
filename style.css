@@ -19,10 +19,28 @@ select {
 
 body {
   line-height: 1.5;
+  background-color: #fafbfc;
 
   display: flex;
   flex-wrap: wrap;
-  gap: 3rem;
+}
+
+label {
+  margin-top: 24px;
+  color: #323f4b;
+}
+
+input {
+  min-width: 250px;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+p,
+h1,
+h2,
+button {
+  color: #1f2933;
 }
 
 .cat {
@@ -58,6 +76,7 @@ body {
   flex-direction: column;
   justify-content: center;
   gap: 2rem;
+  margin-left: 86px;
 }
 
 .wrapper {
@@ -74,19 +93,13 @@ body {
   flex-direction: column;
 }
 
-label {
-  margin-top: 24px;
-}
-
-input {
-  min-width: 250px;
-  border-radius: 5px;
-  padding: 4px;
+.col-one {
+  margin-left: 40px;
 }
 
 .button-container {
-  margin-top: 24px;
-  margin-left: 22px;
+  margin-top: 34px;
+  margin-left: 86px;
   display: flex;
   flex-direction: column;
   width: 230px;
@@ -101,4 +114,18 @@ button[type="submit"] {
 
 .btn-link {
   text-decoration: none;
+}
+
+.header:nth-child(2) {
+  color: #9aa5b1;
+}
+
+.form-background h2 {
+  color: #9aa5b1;
+  margin-left: 64px;
+}
+
+.form-background {
+  background-color: #d1eefc;
+  padding: 24px;
 }
